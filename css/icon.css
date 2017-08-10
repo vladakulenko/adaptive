@@ -1,0 +1,72 @@
+.fa {
+	font-family: FontAwesome;
+	font-style: normal;
+}
+
+.fa-search::before {
+    content: '\f002';
+}
+.fa-user::before {
+    content: "\f007";
+}
+.fa-map-marker::after {
+	content: "\f041";
+}
+.fa-comments-o::after {
+	content: "\f0e6";
+}
+.icon-home:before {
+	background: url(../images/icon/home.png) no-repeat 50%;
+}
+.icon-user:before {
+	background: url(../images/icon/user.png) no-repeat 50%;
+}
+.icon-furaska:before {
+	background: url(../images/icon/shapka.png) no-repeat 50%;
+}
+.icon-note:before {
+	background: url(../images/icon/note.png) no-repeat 50%;
+}
+.icon-bus:before {
+	background: url(../images/icon/bus.png) no-repeat 50%;
+}
+
+.posts__home .icon-post:before {
+	background: url(../images/icon/post-home.png) no-repeat 50%;
+	width: 55px;
+	height: 55px;
+}
+.posts__club .icon-post:before {
+	background: url(../images/icon/post-home.png) no-repeat 50%;
+	width: 55px;
+	height: 55px;
+}
+.posts__music .icon-post:before {
+	background: url(../images/icon/post-note.png) no-repeat 50%;
+}
+.posts__bus .icon-post:before {
+	background: url(../images/icon/post-bus.png) no-repeat 50%;
+}
+
+.offer-home:before {
+	background: url(../images/icon/big1.png) no-repeat 50%;
+}
+.offer-user:before {
+	background: url(../images/icon/big3.png) no-repeat 50%;
+}
+.offer-furaska:before {
+	background: url(../images/icon/big2.png) no-repeat 50%;
+}
+.offer-note:before {
+	background: url(../images/icon/big4.png) no-repeat 50%;
+}
+.offer-bus:before {
+	background: url(../images/icon/big5.png) no-repeat 50%;
+}
+
+.reality-list:before {
+	background: url(../images/icon/list.png) no-repeat 50%;
+}
+.reality-flash:before {
+	background: url(../images/icon/flash.png) no-repeat 50%;
+}

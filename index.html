@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+				duhoot
+			</title>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" href="css/jquery.formstyler.css">
+			
+			
+			<link rel="stylesheet" href="css/icon.css">
+			<link rel="stylesheet" href="css/header-search.css">
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap.offcanvas.css">
+			
+			<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+			<link rel="stylesheet" type="text/css" href="css/menu_cornermorph.css" />
+			
+			<link rel="stylesheet" href="css/styles.css">
+			<link rel="stylesheet" href="css/media.css">
+			
+			<script src="js/jquery-3.0.0.min.js"></script>
+			<script src="js/jquery.formstyler.js"></script>
+			<script src="js/jquery.formstyler.min.js"></script>
+		</head>
+		<body>
+			<nav class="top-menu">
+				<div class="container menu__container__top-menu">
+					<div class="logo" onclick="window.location.href='#'"></div>
+					<div class="top-menu__bottom-position">
+						<nav class="navbar navbar-default"  role="navigation" style="float:left">
+							<button type="button" class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+								<span class="sr-only">Toggle navigation</span>
+								<span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</span>
+							 </button>
+							<div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+								<ul class="nav navbar-nav">
+									<li>
+										<a href="#">
+											Reality
+										</a>
+									</li>
+
+
+									<li>
+										<a href="#">
+											Living
+										</a>
+									</li>
+
+
+									<li>
+										<a href="#">
+											EduCation
+										</a>
+									</li>
+
+
+									<li>
+										<a href="#">
+											Entertainment
+										</a>
+									</li>
+
+
+									<li>
+										<a href="#">
+											Mobility
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</nav>
+						<div class="nav__top-button">
+							<div class="buttom__search" onclick="window.location.href='#'">
+								<i class="fa fa-search"></i>
+							</div>
+							<div class="buttom__user" onclick="window.location.href='#'">
+								<p>
+									<i class="fa fa-user"></i> login
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<header class="bg header__bg">
+				<div class="container bg-position">
+					<p class="header__title">
+						What are you looking for?
+					</p>
+					<form class="header__form" action="handler.php">
+						<select class="styler">
+							<option value="c1">Dubai</option>
+							<option value="c2">Chernihiv</option>
+							<option value="c3">Kiev</option>
+						</select><select class="styler">
+							<option value="c1">Education</option>
+							<option value="c2">Lorem text</option>
+							<option value="c3">Lorem</option>
+					   	</select>
+						<p class="header__input-search">
+							<input type="text" placeholder="Keyword, name, date, ...">
+						</p>
+						<input class="button button-red button__search" id="sp_qc_submit" value="Search" type="submit">
+                    </form>
+				</div>
+			</header>
+			<nav class="mainmenu">
+				<div class="container" style="position: relative;">
+					<div class="mainmenu__bottom-position">
+						<ul class="nav menu nav__mainmenu">
+							<li>
+								<a href="#" class="article">
+									Recommended
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									latest
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Highlights
+								</a>
+							</li>
+						</ul>
+						<div style="float:right;">
+							<div class="mainmenu__nav__buttom">
+								<select class="styler mainmenu__select">
+									<option value="c1">Dubai</option>
+									<option value="c3">Kiev</option>
+								</select>
+								<a href="#"  class="button button-border mainmenu__button">
+									Show map<i class="fa fa-map-marker"></i>
+								</a>
+							</div>
+							<ul class="menu nav__icon">
+								<div class="options">
+									 <div class="filters" class="button-group js-radio-button-group">
+										<li class="nav__icon-title">
+											Filter:
+										</li>
+										<li>
+											<button class="nav__button" data-filter=".home">
+												<i class="icon mainmenu__icon icon-home"></i>
+											</button>
+										</li>
+										<li>
+											<button class="nav__button" data-filter=".user">
+												<i class="icon mainmenu__icon icon-user"></i>
+											</button>
+										</li>
+										<li>
+											<button class="nav__button" data-filter=".furaska">
+											<i class="icon mainmenu__icon icon-furaska"></i>
+											</button>
+										</li>
+										<li>
+											<button class="nav__button" data-filter=".note">
+												<i class="icon mainmenu__icon icon-note"></i>
+											</button>
+										</li>
+										<li>
+											<button class="nav__button" data-filter=".bus">
+												<i class="icon mainmenu__icon icon-bus"></i>
+											</button>
+										</li>
+									 </div>
+								</div>
+							</ul>
+							<div class="menu-wrap">
+								<nav class="menu-module">
+									<div class="mainmenu__nav__buttom">
+										<select class="styler mainmenu__select">
+											<option value="c1">Dubai</option>
+											<option value="c3">Kiev</option>
+										</select>
+										<a href="#"  class="button button-border mainmenu__button">
+											Show map<i class="fa fa-map-marker"></i>
+										</a>
+									</div>
+									<p class="menu-module__title">Filter:</p>
+									<ul class="menu menu-module__icon">
+										<div class="options">
+											 <div class="filters" class="button-group js-radio-button-group">
+												<li>
+													<button class="nav__button" data-filter=".home">
+														<i class="icon mainmenu__icon icon-home"></i>
+													</button>
+												</li>
+												<li>
+													<button class="nav__button" data-filter=".user">
+														<i class="icon mainmenu__icon icon-user"></i>
+													</button>
+												</li>
+												<li>
+													<button class="nav__button" data-filter=".furaska">
+													<i class="icon mainmenu__icon icon-furaska"></i>
+													</button>
+												</li>
+												<li>
+													<button class="nav__button" data-filter=".note">
+														<i class="icon mainmenu__icon icon-note"></i>
+													</button>
+												</li>
+												<li>
+													<button class="nav__button" data-filter=".bus">
+														<i class="icon mainmenu__icon icon-bus"></i>
+													</button>
+												</li>
+											</div>
+										</div>
+									</ul>
+								</nav>
+							</div>
+							<button class="menu-button" id="open-button"><i class="icon-tags fa fa-fw fa-tags"></i><span>Open Menu</span></button>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<article class="posts container">
+				<div class="isotope">
+					<div class="posts__block posts__block-210 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="home__price">
+								$2,990
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/1.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									2 bedroom house for rent in Dubai
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Vision Agency
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (365)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__music item note">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/2.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									Beach party festival 2014
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Long beach
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</span> (1165)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__bus item bus">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/3.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									Aliquam quis pulvinar purus
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Bus Trans
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (365)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="home__price">
+								$2,990
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/4.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									4 bedroom house for rent in Dubai
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										reality Agency
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (165)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-455 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__img__text">
+								<h2 class="posts__img__title">
+									Skybox club
+								</h2>
+								<p>
+									<a href="#">
+										<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (165)
+									</a>
+								</p>
+							</div>
+							<div class="posts__overflow">
+								<div class="posts__gradient"></div>
+								<img src="images/article/5.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-455__text">
+							<div class="posts__block-455__rating">
+								<span class="fa">&#xf005;&#xf005;&#xf005;&#xf006;&#xf006;</span>
+							</div>
+							<div class="posts__block-455__arlicle">
+								<div class="rating__overflow">
+									<img src="images/article/user/1.jpg" alt="" style="position: absolute; left: -160px; top: -65px;">
+								</div>
+								<div class="posts__block-455__arlicle__text">
+									<p class="posts__block-455__name">
+										Lucy-P
+									</p>
+									<p>
+										“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” <a href="#">...read more</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-455 posts__club item note">
+						<div class="posts__img" >
+							<div class="posts__img__text">
+								<h2 class="posts__img__title">
+									Skybox club
+								</h2>
+								<p>
+									<a href="#">
+										<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</span> (1365)
+									</a>
+								</p>
+							</div>
+							<div class="posts__overflow">
+								<div class="posts__gradient"></div>
+								<img src="images/article/6.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-455__text">
+							<div class="posts__block-455__rating">
+								<span class="fa">&#xf005;&#xf005;&#xf005;&#xf006;&#xf006;</span>
+							</div>
+							<div class="posts__block-455__arlicle">
+								<div class="rating__overflow">
+									<img src="images/article/user/2.jpg" alt="" style="position: absolute; left: -106px;">
+								</div>
+								<div class="posts__block-455__arlicle__text">
+									<p class="posts__block-455__name">
+										Peter145
+									</p>
+									<p>
+										“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” <a href="#">...read more</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="home__price">
+								$2,990
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/1.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									2 bedroom house for rent in Dubai
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Vision Agency
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (365)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__music item note">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/2.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									Beach party festival 2014
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Long beach
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</span> (1165)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__bus item bus">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/3.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									Aliquam quis pulvinar purus
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Bus Trans
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (365)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="home__price">
+								$2,990
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/4.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									4 bedroom house for rent in Dubai
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										reality Agency
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (165)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-455 posts__club item note">
+						<div class="posts__img" >
+							<div class="posts__img__text">
+								<h2 class="posts__img__title">
+									Skybox club
+								</h2>
+								<p>
+									<a href="#">
+										<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</span> (1365)
+									</a>
+								</p>
+							</div>
+							<div class="posts__overflow">
+								<div class="posts__gradient"></div>
+								<img src="images/article/6.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-455__text">
+							<div class="posts__block-455__rating">
+								<span class="fa">&#xf005;&#xf005;&#xf005;&#xf006;&#xf006;</span>
+							</div>
+							<div class="posts__block-455__arlicle">
+								<div class="rating__overflow">
+									<img src="images/article/user/2.jpg" alt="" style="position: absolute; left: -106px;">
+								</div>
+								<div class="posts__block-455__arlicle__text">
+									<p class="posts__block-455__name">
+										Peter145
+									</p>
+									<p>
+										“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” <a href="#">...read more</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__home item home">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="home__price">
+								$2,990
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/4.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									4 bedroom house for rent in Dubai
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										reality Agency
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf006;</span> (165)
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="posts__block posts__block-210 posts__music item note">
+						<div class="posts__img" >
+							<div class="posts__show">
+								<a href="#" class="button button__posts"><i class="fa fa-search"></i>Show more</a>
+								<div class="posts__show__rating">
+									<a href="#">
+										<span class="fa">&#xf006;&#xf006;&#xf006;&#xf006;&#xf006;</span>
+									</a>
+									<a href="#">
+										<i class="fa fa-comments-o"></i>
+									</a>
+								</div>
+							</div>
+							<div class="posts__overflow">
+								<img src="images/article/2.jpg" alt="">
+							</div>
+							<p>
+							<a href="#">
+								<i class="icon icon-post"></i>
+							</a>
+						</div>
+						<div class="posts__block-210__text">
+							<h2 class="posts__block-210__title">
+								<a href="#">
+									Beach party festival 2014
+								</a>
+							</h2>
+							<div class="posts__block-210__text__rating">
+								<h3 class="posts__block-210__name">
+									<a href="#">
+										Long beach
+									</a>
+								</h3>
+								<p>
+									<span class="fa">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</span> (1165)
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p  class="link__more">
+					<a href="#">
+						<span style="border-bottom: 1px solid #d3d3d7">Load more</span> <span class="fa">&#xf178;</span>
+					</a>
+				</p>
+			</article>
+			<section class="container offer">
+				<h2>
+					What can DuHoot offer to you?
+				</h2>
+				<p class="ofter__text">
+					Etiam cursus ipsum quis enim faucibus
+				</p>
+				<div class="offer__icon">
+					<div class="offer__block1">
+						<i class="icon offer-home"></i>
+						<i class="icon offer-user"></i>
+						<i class="icon offer-furaska"></i>
+					</div>
+					<div class="offer__block2">
+						<i class="icon offer-note"></i>
+						<i class="icon offer-bus"></i>
+					</div>
+				</div>
+				<p class="offer__title">
+					Reality
+				</p>
+				<div class="offer__reality">
+					<div class="offer__reality__block1">
+						<div class="reality__icon">
+							<i class="icon reality-flash"></i>
+						</div>
+						<p>
+							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+						</p>
+					</div><div class="offer__reality__block1">
+						<div class="reality__icon">
+							<i class="icon reality-list"></i>
+						</div>
+						<p>
+							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+						</p>
+					</div>
+				</div>
+			</section>
+			<footer class="bg footer__bg">
+				<div class="container bg-position">
+					<div class="footer__form">
+						<p class="footer__title">
+							Subscribe to our newsletter
+						</p>
+						<form>
+							<div class="footer__form__email">
+								<input class="form__email" type="email" placeholder="your@email.com">
+								<input class="button button-red footer__button" id="sp_qc_submit2" value="Subscribe" type="submit">
+							</div>
+						</form>
+					</div>
+					<div class="footer__full">
+						<div class="footer__block1">
+							<p class="footer__block-title">
+								Ipsum quis
+							</p>
+							<ul class="footer__nav">
+								<li>
+									<a href="#">
+										Aliquam quis
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Pulvinar purus
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Etiam cursus
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Ipsum quis
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Enim faucibus
+									</a>
+								</li>
+							</ul>
+						</div><div class="footer__block1">
+							<p class="footer__block-title">
+								Ipsum quis
+							</p>
+							<ul class="footer__nav">
+								<li>
+									<a href="#">
+										Aliquam quis
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Pulvinar purus
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Etiam cursus
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Ipsum quis
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Enim faucibus
+									</a>
+								</li>
+							</ul>
+						</div><div class="footer__block2">
+							<p class="footer__block-title">
+								Ipsum quis
+							</p>
+							<a href="#" class="fa">
+								&#xf09a;
+							</a>
+							<a href="#" class="fa">
+								&#xf099;
+							</a>
+							<a href="#" class="fa">
+								&#xf0d5;
+							</a>
+							<a href="#" class="fa">
+								&#xf167;
+							</a>
+							<div class="footer__copyright">
+								Copyright © All Rights reserved	
+							</div>
+						</div>
+						<div class="copyright">
+							Copyright © All Rights reserved	
+						</div>
+					</div>	
+				</div>
+			</footer>
+			
+			<script src="js/bootstrap.offcanvas.js"></script>
+			<script src="js/template.js"></script>
+			<script src="js/classie.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/isotope.pkgd.min.js"></script>
+			
+		</body>
+	</html>

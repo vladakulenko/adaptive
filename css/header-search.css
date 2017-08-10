@@ -1,0 +1,91 @@
+.header__form {
+	text-align: center;
+	margin-top: 3.1rem;
+	font-size: 0px;
+}
+.header__form * {
+	box-sizing: border-box;
+}
+.header__form > :nth-child(1) {
+	padding-right: 1.4rem;
+}
+.header__form > :nth-child(2) {
+	padding-left: 1.4rem;
+}
+.header__form .jq-selectbox {
+	width: 50%;
+	max-width: 236px;
+}
+.jq-selectbox__select,
+.header__input-search input {
+	font-size: 1.8rem;
+	height: auto;
+	padding: 1.4rem 4.5rem 1.6rem 3.0rem;
+	color: #fff;
+}
+.jq-selectbox__select {
+	text-shadow: none;
+}
+.jq-selectbox__trigger {
+	border-left: none;
+	width: auto;
+	right: 25px;
+}
+.jq-selectbox__trigger-arrow {
+	top: 50%;
+	margin-top: -3px;
+	right: 0px;
+	border: none;
+}
+.jq-selectbox__select-text {
+	overflow: inherit;
+	text-align: left;
+}
+.jq-selectbox__select-text:after {
+	content: "\f078";
+	font-family: FontAwesome;
+	font-size: 1.4rem;
+	position: absolute;
+	right: 30px;
+	line-height: 1.5;
+}
+.jq-selectbox__select,
+.header__input-search input {
+	background: rgba(255, 255, 255, 0.102);
+	box-shadow: none;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 3.0rem;
+}
+.jq-selectbox__select:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+.header__input-search {
+	margin-top: 2.1rem;
+}
+.header__input-search input::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.header__input-search input::-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.header__input-search input:-moz-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.header__input-search input:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.header__input-search input {
+	width: 100%;
+	max-width: 472px;
+	height: 57px;
+	font-family: 'Gotham Book';
+	color: #fff;
+}
+.jq-selectbox li {
+	font-size: 1.4rem;
+	text-align: left;
+}
